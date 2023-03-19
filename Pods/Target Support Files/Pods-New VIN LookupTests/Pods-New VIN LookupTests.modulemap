@@ -1,0 +1,6 @@
+framework module Pods_New_VIN_LookupTests {
+  umbrella header "Pods-New VIN LookupTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

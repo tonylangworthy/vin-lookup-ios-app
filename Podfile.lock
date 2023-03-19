@@ -1,0 +1,39 @@
+PODS:
+  - Cause-Logic-Effect (5.3.2):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - IQKeyboardManagerSwift (6.5.11)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxTest (6.5.0):
+    - RxSwift (= 6.5.0)
+
+DEPENDENCIES:
+  - Cause-Logic-Effect
+  - IQKeyboardManagerSwift
+  - RxTest
+
+SPEC REPOS:
+  trunk:
+    - Cause-Logic-Effect
+    - IQKeyboardManagerSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
+
+SPEC CHECKSUMS:
+  Cause-Logic-Effect: deaa4f524e30f5805ad3b6d07f0b3edcd589f66e
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
+
+PODFILE CHECKSUM: dbd22ae46a5fd0d706c2bf3dcad16aa53b270657
+
+COCOAPODS: 1.12.0

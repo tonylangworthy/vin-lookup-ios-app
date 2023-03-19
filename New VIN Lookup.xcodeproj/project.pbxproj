@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730133C929C66759003173F6 /* Endpoint+Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730133C829C66759003173F6 /* Endpoint+Catalog.swift */; };
+		730133CB29C66BA5003173F6 /* CatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730133CA29C66BA5003173F6 /* CatalogResponse.swift */; };
+		734CAEFA29C673B700899276 /* VehicleDetailsLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734CAEF629C673B700899276 /* VehicleDetailsLogic.swift */; };
+		734CAEFB29C673B700899276 /* VehicleDetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734CAEF729C673B700899276 /* VehicleDetailsViewController.storyboard */; };
+		734CAEFC29C673B700899276 /* VehicleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734CAEF829C673B700899276 /* VehicleDetailsViewController.swift */; };
+		734CAEFD29C673B700899276 /* VehicleDetailsConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734CAEF929C673B700899276 /* VehicleDetailsConnections.swift */; };
 		73A4774629C28E5800E2268C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4774529C28E5800E2268C /* AppDelegate.swift */; };
 		73A4774829C28E5800E2268C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4774729C28E5800E2268C /* SceneDelegate.swift */; };
 		73A4774A29C28E5800E2268C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4774929C28E5800E2268C /* ViewController.swift */; };
@@ -16,6 +22,9 @@
 		73A4775D29C28E5A00E2268C /* New_VIN_LookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4775C29C28E5A00E2268C /* New_VIN_LookupTests.swift */; };
 		73A4776729C28E5A00E2268C /* New_VIN_LookupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4776629C28E5A00E2268C /* New_VIN_LookupUITests.swift */; };
 		73A4776929C28E5A00E2268C /* New_VIN_LookupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4776829C28E5A00E2268C /* New_VIN_LookupUITestsLaunchTests.swift */; };
+		C4A17126F2FC1137D6A7A834 /* Pods_New_VIN_Lookup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2C86ED6F52D483FB61CAB8 /* Pods_New_VIN_Lookup.framework */; };
+		D8136DF6499FB3CE5314FCFD /* Pods_New_VIN_LookupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A439465950623F47730719 /* Pods_New_VIN_LookupTests.framework */; };
+		FF66818124B86C64F62790E4 /* Pods_New_VIN_Lookup_New_VIN_LookupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E38E0EBFE3A36AFC2958D1 /* Pods_New_VIN_Lookup_New_VIN_LookupUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12469B3161BA76A50EEF3B64 /* Pods-New VIN Lookup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New VIN Lookup.debug.xcconfig"; path = "Target Support Files/Pods-New VIN Lookup/Pods-New VIN Lookup.debug.xcconfig"; sourceTree = "<group>"; };
+		1357244859B67334B2CA72E3 /* Pods-New VIN LookupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New VIN LookupTests.release.xcconfig"; path = "Target Support Files/Pods-New VIN LookupTests/Pods-New VIN LookupTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F73A7088B2E84C61843EA87 /* Pods-New VIN Lookup-New VIN LookupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New VIN Lookup-New VIN LookupUITests.release.xcconfig"; path = "Target Support Files/Pods-New VIN Lookup-New VIN LookupUITests/Pods-New VIN Lookup-New VIN LookupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33E38E0EBFE3A36AFC2958D1 /* Pods_New_VIN_Lookup_New_VIN_LookupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_New_VIN_Lookup_New_VIN_LookupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730133C829C66759003173F6 /* Endpoint+Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+Catalog.swift"; sourceTree = "<group>"; };
+		730133CA29C66BA5003173F6 /* CatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogResponse.swift; sourceTree = "<group>"; };
+		734CAEF629C673B700899276 /* VehicleDetailsLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsLogic.swift; sourceTree = "<group>"; };
+		734CAEF729C673B700899276 /* VehicleDetailsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VehicleDetailsViewController.storyboard; sourceTree = "<group>"; };
+		734CAEF829C673B700899276 /* VehicleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsViewController.swift; sourceTree = "<group>"; };
+		734CAEF929C673B700899276 /* VehicleDetailsConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsConnections.swift; sourceTree = "<group>"; };
 		73A4774229C28E5800E2268C /* New VIN Lookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New VIN Lookup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A4774529C28E5800E2268C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73A4774729C28E5800E2268C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,11 @@
 		73A4776229C28E5A00E2268C /* New VIN LookupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New VIN LookupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A4776629C28E5A00E2268C /* New_VIN_LookupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_VIN_LookupUITests.swift; sourceTree = "<group>"; };
 		73A4776829C28E5A00E2268C /* New_VIN_LookupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_VIN_LookupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75A439465950623F47730719 /* Pods_New_VIN_LookupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_New_VIN_LookupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91A9AD98AAD3FE21F7E333C /* Pods-New VIN LookupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New VIN LookupTests.debug.xcconfig"; path = "Target Support Files/Pods-New VIN LookupTests/Pods-New VIN LookupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF058933A7516B217CACF696 /* Pods-New VIN Lookup-New VIN LookupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New VIN Lookup-New VIN LookupUITests.debug.xcconfig"; path = "Target Support Files/Pods-New VIN Lookup-New VIN LookupUITests/Pods-New VIN Lookup-New VIN LookupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8582986E0552854072803EA /* Pods-New VIN Lookup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New VIN Lookup.release.xcconfig"; path = "Target Support Files/Pods-New VIN Lookup/Pods-New VIN Lookup.release.xcconfig"; sourceTree = "<group>"; };
+		EA2C86ED6F52D483FB61CAB8 /* Pods_New_VIN_Lookup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_New_VIN_Lookup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A17126F2FC1137D6A7A834 /* Pods_New_VIN_Lookup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8136DF6499FB3CE5314FCFD /* Pods_New_VIN_LookupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF66818124B86C64F62790E4 /* Pods_New_VIN_Lookup_New_VIN_LookupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E55F640D956D77F86A751B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12469B3161BA76A50EEF3B64 /* Pods-New VIN Lookup.debug.xcconfig */,
+				D8582986E0552854072803EA /* Pods-New VIN Lookup.release.xcconfig */,
+				CF058933A7516B217CACF696 /* Pods-New VIN Lookup-New VIN LookupUITests.debug.xcconfig */,
+				1F73A7088B2E84C61843EA87 /* Pods-New VIN Lookup-New VIN LookupUITests.release.xcconfig */,
+				C91A9AD98AAD3FE21F7E333C /* Pods-New VIN LookupTests.debug.xcconfig */,
+				1357244859B67334B2CA72E3 /* Pods-New VIN LookupTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		730133C629C65E85003173F6 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				73A4774929C28E5800E2268C /* ViewController.swift */,
+				73A4774B29C28E5800E2268C /* Main.storyboard */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		730133C729C666F2003173F6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				730133C829C66759003173F6 /* Endpoint+Catalog.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		730133CC29C67213003173F6 /* Vehicle Details */ = {
+			isa = PBXGroup;
+			children = (
+				734CAEF629C673B700899276 /* VehicleDetailsLogic.swift */,
+				734CAEF729C673B700899276 /* VehicleDetailsViewController.storyboard */,
+				734CAEF829C673B700899276 /* VehicleDetailsViewController.swift */,
+				734CAEF929C673B700899276 /* VehicleDetailsConnections.swift */,
+			);
+			path = "Vehicle Details";
+			sourceTree = "<group>";
+		};
 		73A4773929C28E5800E2268C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +151,8 @@
 				73A4775B29C28E5A00E2268C /* New VIN LookupTests */,
 				73A4776529C28E5A00E2268C /* New VIN LookupUITests */,
 				73A4774329C28E5800E2268C /* Products */,
+				0E55F640D956D77F86A751B4 /* Pods */,
+				E9D1C45A3056A0E48CDFADBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +169,12 @@
 		73A4774429C28E5800E2268C /* New VIN Lookup */ = {
 			isa = PBXGroup;
 			children = (
+				730133CC29C67213003173F6 /* Vehicle Details */,
+				730133CA29C66BA5003173F6 /* CatalogResponse.swift */,
+				730133C729C666F2003173F6 /* API */,
 				73A4774529C28E5800E2268C /* AppDelegate.swift */,
 				73A4774729C28E5800E2268C /* SceneDelegate.swift */,
-				73A4774929C28E5800E2268C /* ViewController.swift */,
-				73A4774B29C28E5800E2268C /* Main.storyboard */,
+				730133C629C65E85003173F6 /* Home Screen */,
 				73A4774E29C28E5900E2268C /* Assets.xcassets */,
 				73A4775029C28E5900E2268C /* LaunchScreen.storyboard */,
 				73A4775329C28E5900E2268C /* Info.plist */,
@@ -127,6 +199,16 @@
 			path = "New VIN LookupUITests";
 			sourceTree = "<group>";
 		};
+		E9D1C45A3056A0E48CDFADBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA2C86ED6F52D483FB61CAB8 /* Pods_New_VIN_Lookup.framework */,
+				33E38E0EBFE3A36AFC2958D1 /* Pods_New_VIN_Lookup_New_VIN_LookupUITests.framework */,
+				75A439465950623F47730719 /* Pods_New_VIN_LookupTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73A4776C29C28E5A00E2268C /* Build configuration list for PBXNativeTarget "New VIN Lookup" */;
 			buildPhases = (
+				B3D0AE89C6011656A4437FEC /* [CP] Check Pods Manifest.lock */,
 				73A4773E29C28E5800E2268C /* Sources */,
 				73A4773F29C28E5800E2268C /* Frameworks */,
 				73A4774029C28E5800E2268C /* Resources */,
+				814468B4ACA8DA4C3F9238CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73A4776F29C28E5A00E2268C /* Build configuration list for PBXNativeTarget "New VIN LookupTests" */;
 			buildPhases = (
+				E247CC2281F6DD316A213C58 /* [CP] Check Pods Manifest.lock */,
 				73A4775429C28E5900E2268C /* Sources */,
 				73A4775529C28E5900E2268C /* Frameworks */,
 				73A4775629C28E5900E2268C /* Resources */,
+				DE90CF5511A051FFB1FB1800 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73A4777229C28E5A00E2268C /* Build configuration list for PBXNativeTarget "New VIN LookupUITests" */;
 			buildPhases = (
+				B6C76605CCD51FD595C7CB61 /* [CP] Check Pods Manifest.lock */,
 				73A4775E29C28E5A00E2268C /* Sources */,
 				73A4775F29C28E5A00E2268C /* Frameworks */,
 				73A4776029C28E5A00E2268C /* Resources */,
+				62DFDC171ED443893AFC9532 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +322,7 @@
 				73A4775229C28E5900E2268C /* LaunchScreen.storyboard in Resources */,
 				73A4774F29C28E5900E2268C /* Assets.xcassets in Resources */,
 				73A4774D29C28E5800E2268C /* Main.storyboard in Resources */,
+				734CAEFB29C673B700899276 /* VehicleDetailsViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +342,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62DFDC171ED443893AFC9532 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-New VIN Lookup-New VIN LookupUITests/Pods-New VIN Lookup-New VIN LookupUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-New VIN Lookup-New VIN LookupUITests/Pods-New VIN Lookup-New VIN LookupUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-New VIN Lookup-New VIN LookupUITests/Pods-New VIN Lookup-New VIN LookupUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814468B4ACA8DA4C3F9238CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-New VIN Lookup/Pods-New VIN Lookup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-New VIN Lookup/Pods-New VIN Lookup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-New VIN Lookup/Pods-New VIN Lookup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D0AE89C6011656A4437FEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-New VIN Lookup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C76605CCD51FD595C7CB61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-New VIN Lookup-New VIN LookupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE90CF5511A051FFB1FB1800 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-New VIN LookupTests/Pods-New VIN LookupTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-New VIN LookupTests/Pods-New VIN LookupTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-New VIN LookupTests/Pods-New VIN LookupTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E247CC2281F6DD316A213C58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-New VIN LookupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		73A4773E29C28E5800E2268C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730133C929C66759003173F6 /* Endpoint+Catalog.swift in Sources */,
 				73A4774A29C28E5800E2268C /* ViewController.swift in Sources */,
+				734CAEFC29C673B700899276 /* VehicleDetailsViewController.swift in Sources */,
+				734CAEFD29C673B700899276 /* VehicleDetailsConnections.swift in Sources */,
+				734CAEFA29C673B700899276 /* VehicleDetailsLogic.swift in Sources */,
 				73A4774629C28E5800E2268C /* AppDelegate.swift in Sources */,
+				730133CB29C66BA5003173F6 /* CatalogResponse.swift in Sources */,
 				73A4774829C28E5800E2268C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +646,7 @@
 		};
 		73A4776D29C28E5A00E2268C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12469B3161BA76A50EEF3B64 /* Pods-New VIN Lookup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +659,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +675,7 @@
 		};
 		73A4776E29C28E5A00E2268C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8582986E0552854072803EA /* Pods-New VIN Lookup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +688,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,6 +704,7 @@
 		};
 		73A4777029C28E5A00E2268C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91A9AD98AAD3FE21F7E333C /* Pods-New VIN LookupTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +724,7 @@
 		};
 		73A4777129C28E5A00E2268C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1357244859B67334B2CA72E3 /* Pods-New VIN LookupTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +744,7 @@
 		};
 		73A4777329C28E5A00E2268C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF058933A7516B217CACF696 /* Pods-New VIN Lookup-New VIN LookupUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +762,7 @@
 		};
 		73A4777429C28E5A00E2268C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F73A7088B2E84C61843EA87 /* Pods-New VIN Lookup-New VIN LookupUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

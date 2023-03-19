@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RxSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        #if DEBUG
+        _ = Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance)
+            .map { _ in }
+            .flatMap { Observable.just(RxSwift.Resources.total) }
+            .distinctUntilChanged()
+            .subscribe(onNext: { print("♦️ Resource count \($0)") })
+        #endif
         return true
     }
 
